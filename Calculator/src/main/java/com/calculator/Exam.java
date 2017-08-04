@@ -10,9 +10,9 @@ public class Exam {
 		System.out.println("========== TWO ================");
 		System.out.println(number2(8));
 		System.out.println("========== THREE ================");
-		System.out.println(number3());
+		System.out.println(number3(2,2));
 		System.out.println("========== FOUR ================");
-		System.out.println(number4(3,10));
+		System.out.println(number4(2,10));
 		
 	}
 
@@ -52,8 +52,7 @@ public class Exam {
 		return F_n;
 	}
 
-	public static int number3() {
-		int inner = 2, outer = 2;
+	public static int number3(int inner, int outer) {
 		int result = 0;
 		for (int i = 0; i < outer; i++) {
 			for (int j = 0; j < inner; j++) {

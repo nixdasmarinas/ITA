@@ -1,3 +1,4 @@
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -19,7 +20,8 @@ public class TestExam {
 		assertNotEquals(32,Exam.number2(7));
 		
 		/* NUMBER 3 */
-		
+		assertEquals(26,Exam.number3(2, 2));
+		assertNotEquals(27,Exam.number3(2, 2));
 		
 		
 	}
