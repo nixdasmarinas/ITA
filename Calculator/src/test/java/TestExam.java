@@ -23,6 +23,9 @@ public class TestExam {
 		assertEquals(26,Exam.number3(2, 2));
 		assertNotEquals(27,Exam.number3(2, 2));
 		
+		/* NUMBER 4 */
+		assertEquals(4,Exam.number4(3, 10));
+		assertNotEquals(4,Exam.number4(2, 2));
 		
 	}
 

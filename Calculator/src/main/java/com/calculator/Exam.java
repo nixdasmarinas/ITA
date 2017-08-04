@@ -74,4 +74,16 @@ public class Exam {
 		return count;
 	}
 	
+	public static int number5(int x, int y) {
+		int count = 0;
+		while (x < y)
+		{
+			System.out.println ("Hello");
+			x = x + 1;
+			y = y - 1;
+			count++;
+		}
+		return count;
+	}
+	
 }
